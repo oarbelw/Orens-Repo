@@ -27,3 +27,7 @@ Honours Specialization in Computer Science at Western University. This is a repo
 
 ## [NeuroRX Research summary of work presentation](NeuroRX)
 
+---
+
+## [NHL 2022 teams predicted wins - small personal project](NHLEV)
+
