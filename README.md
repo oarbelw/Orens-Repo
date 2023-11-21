@@ -23,3 +23,7 @@ Honours Specialization in Computer Science at Western University. This is a repo
 
 ## [DS 3000 - MACHINE LEARNING](DS3000-MACHINE-LEARNING)
 
+---
+
+## [NeuroRX Research summary of work presentation](NeuroRX)
+
