@@ -1,0 +1,378 @@
+,censusYear,state,area,familyIncome,age,sex,raceGeneral,maritalStatus,personalIncome
+0,2000,Florida,south,14550,44,Male,Other,Married,0
+1,2000,Florida,south,22800,20,Female,White,Single,13000
+2,2000,Florida,south,0,20,Male,Black,Single,20000
+4,2000,Florida,south,48000,55,Male,White,Married,36000
+5,2000,Florida,south,74000,43,Female,White,Married,27000
+6,2000,Florida,south,23000,60,Female,White,Married,11800
+7,2000,Florida,south,74000,47,Female,White,Married,48000
+8,2000,Florida,south,60000,54,Female,Black,Married,40000
+9,2000,Florida,south,14600,58,Female,White,Widowed,14600
+10,2000,Florida,south,0,33,Female,White,Single,23000
+11,2000,Florida,south,37000,51,Female,White,Divorced,37000
+12,2000,Florida,south,32000,62,Female,White,Divorced,32000
+14,2000,Florida,south,76900,25,Male,White,Single,6000
+15,2000,Florida,south,100100,44,Female,White,Married,16100
+16,2000,Florida,south,48000,28,Female,White,Married,12000
+18,2000,Florida,south,57200,31,Male,White,Married,20000
+19,2000,Florida,south,43950,69,Female,White,Married,4800
+20,2000,Florida,south,49000,31,Male,White,Married,28000
+21,2000,Florida,south,31600,80,Female,White,Widowed,31600
+23,2000,Florida,south,64800,47,Male,White,Single,49300
+25,2000,Florida,south,38320,47,Male,White,Married,34320
+27,2000,Florida,south,0,67,Male,Black,Widowed,8400
+28,2000,Florida,south,70700,17,Female,White,Single,3700
+29,2000,Florida,south,64800,69,Female,White,Divorced,4800
+30,2000,Florida,south,60000,55,Male,White,Married,53000
+31,2000,Florida,south,118100,18,Female,White,Single,7500
+32,2000,Florida,south,21000,66,Female,White,Married,6000
+33,2000,Florida,south,40000,58,Female,White,Married,0
+34,2000,Florida,south,17300,21,Male,Black,Single,4800
+35,2000,Florida,south,61300,52,Male,White,Married,35000
+36,2000,Florida,south,0,18,Male,White,Single,2000
+38,2000,Florida,south,30270,26,Male,Other,Married,24250
+39,2000,New York,east,8800,82,Female,White,Widowed,8800
+40,2000,New York,east,0,46,Female,White,Divorced,17000
+41,2000,New York,east,165000,63,Male,White,Married,123000
+42,2000,New York,east,15570,83,Male,White,Widowed,15570
+43,2000,New York,east,48630,35,Female,White,Married,15830
+46,2000,New York,east,130000,54,Female,White,Married,64000
+47,2000,New York,east,0,36,Male,White,Single,17500
+50,2000,New York,east,50400,21,Female,White,Single,4000
+52,2000,New York,east,62900,17,Female,Black,Single,2000
+53,2000,New York,east,31200,29,Male,Black,Single,10000
+55,2000,New York,east,37100,33,Male,White,Single,37100
+56,2000,New York,east,9500,16,Male,White,Single,1800
+57,2000,New York,east,25000,40,Female,Other,Divorced,25000
+58,2000,New York,east,168200,34,Male,White,Married,121600
+60,2000,New York,east,55300,49,Male,White,Married,55300
+64,2000,New York,east,43000,40,Female,Black,Married,0
+66,2000,New York,east,105000,61,Female,White,Divorced,105000
+67,2000,New York,east,48400,24,Female,Other,Married,0
+68,2000,New York,east,56000,23,Female,Other,Single,0
+69,2000,New York,east,88000,16,Female,Other,Single,0
+70,2000,New York,east,34900,36,Female,Black,Married,19900
+72,2000,New York,east,106000,32,Female,White,Married,22000
+73,2000,New York,east,62820,19,Male,Black,Single,720
+74,2000,New York,east,55000,81,Male,White,Widowed,55000
+75,2000,New York,east,38000,47,Male,White,Married,38000
+76,2000,New York,east,37000,72,Female,White,Widowed,17300
+78,2000,New York,east,40400,46,Female,Black,Married,14200
+79,2000,New York,east,59700,27,Female,White,Married,14500
+82,2000,Rhode Island,east,44004,30,Female,White,Single,44004
+83,2000,Rhode Island,east,43000,39,Male,White,Single,43000
+85,2000,Alabama,south,5500,73,Female,Black,Divorced,3000
+86,2000,Alabama,south,63820,40,Male,White,Married,47950
+87,2000,Alabama,south,11200,60,Female,Black,Divorced,11200
+88,2000,Alabama,south,34500,43,Female,Other,Married,15300
+90,2000,California,west,52000,40,Female,White,Married,27000
+91,2000,California,west,156000,65,Female,White,Married,10000
+92,2000,California,west,59000,80,Male,White,Married,52100
+93,2000,California,west,37500,46,Female,White,Married,17500
+96,2000,California,west,79000,26,Female,White,Single,25000
+97,2000,California,west,134000,58,Male,White,Married,134000
+98,2000,California,west,77000,48,Female,Other,Married,0
+99,2000,California,west,130000,62,Male,White,Married,115000
+100,2000,California,west,10000,22,Female,White,Single,10000
+101,2000,California,west,12000,52,Female,White,Divorced,5100
+102,2000,California,west,101800,60,Female,White,Married,4400
+104,2000,California,west,43900,21,Female,Other,Married,9500
+105,2000,California,west,113710,30,Female,White,Married,38400
+106,2000,California,west,82300,58,Female,Other,Widowed,0
+108,2000,California,west,80300,20,Male,White,Divorced,26300
+109,2000,California,west,36100,18,Female,Other,Married,0
+110,2000,California,west,60980,45,Female,Other,Married,0
+111,2000,California,west,58760,20,Male,Other,Single,4000
+112,2000,California,west,35000,28,Female,White,Married,15000
+113,2000,California,west,7400,19,Female,White,Single,5600
+114,2000,California,west,141000,60,Male,White,Married,111000
+115,2000,California,west,10200,75,Female,White,Single,10200
+117,2000,California,west,85400,58,Female,White,Married,32400
+118,2000,California,west,77700,52,Male,White,Married,45000
+119,2000,California,west,13500,58,Male,Other,Divorced,0
+120,2000,California,west,24800,24,Female,White,Married,18800
+121,2000,California,west,87100,46,Male,White,Married,36000
+122,2000,California,west,47300,43,Female,White,Married,28000
+123,2000,California,west,34850,41,Male,Other,Married,30000
+124,2000,California,west,62000,47,Female,White,Single,34000
+125,2000,California,west,90000,40,Female,Black,Married,40000
+126,2000,California,west,18000,24,Male,Other,Single,3600
+128,2000,California,west,57190,41,Male,Black,Single,57190
+130,2000,California,west,9700,77,Male,White,Married,9700
+131,2000,California,west,353100,60,Male,White,Married,330000
+133,2000,California,west,48000,35,Female,Other,Married,0
+134,2000,California,west,65000,52,Male,White,Married,58000
+135,2000,California,west,193000,72,Male,Other,Married,20000
+136,2000,California,west,60000,31,Male,Other,Married,36000
+137,2000,California,west,162600,45,Male,Other,Married,160000
+138,2000,California,west,41500,79,Female,White,Widowed,41500
+139,2000,California,west,14900,16,Male,White,Single,0
+140,2000,California,west,103000,41,Male,White,Married,75000
+141,2000,California,west,64800,37,Female,Other,Divorced,10300
+142,2000,California,west,44000,26,Female,White,Married,1000
+146,2000,California,west,102000,60,Female,Other,Married,0
+148,2000,California,west,0,22,Female,Other,Single,32000
+149,2000,California,west,30500,49,Female,Other,Married,0
+151,2000,California,west,378200,52,Female,White,Married,0
+152,2000,Illinois,north,45000,47,Male,White,Divorced,45000
+153,2000,Illinois,north,158000,39,Male,White,Married,50000
+154,2000,Illinois,north,98000,34,Female,White,Married,53000
+155,2000,Illinois,north,13000,23,Female,White,Single,28000
+156,2000,Illinois,north,73020,49,Male,White,Married,43020
+157,2000,Illinois,north,20000,21,Female,White,Single,8000
+158,2000,Illinois,north,33300,56,Female,White,Married,3000
+159,2000,Illinois,north,34000,62,Male,White,Divorced,34000
+160,2000,Illinois,north,84000,40,Female,White,Married,24000
+161,2000,Illinois,north,12800,62,Female,White,Married,0
+162,2000,Illinois,north,40600,37,Male,Other,Married,40600
+163,2000,Illinois,north,154630,50,Female,White,Married,0
+164,2000,Illinois,north,88000,20,Female,White,Married,5000
+165,2000,Illinois,north,42000,15,Male,White,Single,0
+166,2000,Illinois,north,48790,39,Male,White,Married,22000
+168,2000,Illinois,north,20300,78,Female,White,Married,1100
+169,2000,Illinois,north,30000,35,Female,Black,Divorced,30000
+170,2000,Illinois,north,64890,48,Male,White,Single,63000
+171,2000,Illinois,north,38500,41,Female,White,Divorced,38500
+172,2000,Illinois,north,20600,51,Male,White,Married,6500
+173,2000,Kansas,north,42000,24,Male,White,Single,42000
+174,2000,Kansas,north,5800,21,Female,White,Single,484
+175,2000,Kansas,north,40000,25,Male,White,Single,40000
+176,2000,Maryland,east,21200,51,Male,Other,Single,22460
+178,2000,Maryland,east,93500,32,Female,White,Married,59700
+179,2000,Maryland,east,42960,40,Male,White,Single,44000
+180,2000,Maryland,east,45400,29,Female,White,Married,14000
+181,2000,Maryland,east,9500,54,Male,Black,Single,1600
+182,2000,Maryland,east,208100,69,Male,White,Married,49700
+184,2000,Maryland,east,44500,40,Female,Black,Married,9500
+186,2000,Nebraska,east,67050,38,Male,Other,Single,40000
+187,2000,New Jersey,east,4500,46,Female,Black,Divorced,4500
+188,2000,New Jersey,east,46600,54,Female,Black,Married,23000
+189,2000,New Jersey,east,22800,73,Male,White,Married,14000
+190,2000,New Jersey,east,80000,38,Female,White,Married,0
+191,2000,New Jersey,east,36200,31,Female,White,Divorced,36200
+192,2000,New Jersey,east,50000,32,Female,Black,Single,25000
+194,2000,New Jersey,east,54240,38,Male,White,Divorced,8840
+195,2000,New Jersey,east,79300,46,Female,Black,Married,36000
+196,2000,New Jersey,east,72020,25,Male,Other,Single,24500
+197,2000,New Jersey,east,52000,35,Male,Black,Married,36000
+198,2000,New Jersey,east,342000,40,Male,Other,Married,317000
+199,2000,New Jersey,east,122310,17,Female,White,Single,10
+200,2000,New Jersey,east,113000,55,Female,White,Married,24000
+201,2000,New Jersey,east,14000,70,Female,Black,Married,4000
+202,2000,Ohio,north,40750,24,Female,White,Married,10000
+204,2000,Ohio,north,22000,29,Male,White,Married,22000
+205,2000,Ohio,north,72100,52,Male,White,Married,47100
+206,2000,Ohio,north,63130,56,Male,White,Married,43030
+207,2000,Ohio,north,20020,69,Female,White,Married,4800
+208,2000,Ohio,north,22990,15,Female,White,Single,0
+209,2000,Ohio,north,12600,65,Male,White,Divorced,12600
+210,2000,Ohio,north,19604,50,Female,Black,Widowed,19604
+212,2000,Ohio,north,0,37,Male,White,Single,22000
+214,2000,Ohio,north,79100,40,Male,White,Married,23700
+215,2000,Ohio,north,77000,21,Female,Other,Married,0
+216,2000,Ohio,north,10400,75,Female,White,Widowed,10400
+217,2000,Ohio,north,44200,53,Female,White,Divorced,44200
+219,2000,Ohio,north,63000,27,Male,Other,Single,12000
+220,2000,Ohio,north,80000,33,Female,White,Married,40000
+222,2000,Ohio,north,61700,57,Male,White,Married,61700
+224,2000,Ohio,north,70000,21,Female,White,Single,16000
+225,2000,Oklahoma,south,100000,45,Female,White,Married,50000
+226,2000,Oklahoma,south,40400,15,Male,White,Single,0
+228,2000,Oklahoma,south,97900,49,Male,White,Single,72600
+229,2000,Oklahoma,south,119000,48,Male,White,Married,59000
+230,2000,Oklahoma,south,29200,52,Female,White,Married,4200
+232,2000,Texas,south,45400,64,Female,White,Married,8000
+233,2000,Texas,south,50030,46,Male,White,Married,30030
+234,2000,Texas,south,44000,35,Male,White,Married,16000
+235,2000,Texas,south,32000,27,Female,White,Divorced,0
+236,2000,Texas,south,32000,45,Female,Black,Married,10000
+237,2000,Texas,south,4600,21,Female,White,Single,4600
+238,2000,Texas,south,56000,63,Male,White,Married,38000
+239,2000,Texas,south,348000,36,Female,White,Married,15000
+240,2000,Texas,south,27000,29,Male,White,Single,27000
+243,2000,Texas,south,150500,45,Male,White,Divorced,150500
+244,2000,Texas,south,237000,45,Male,White,Married,155000
+246,2000,Texas,south,9300,15,Female,White,Single,0
+248,2000,Texas,south,40050,35,Male,White,Divorced,40050
+249,2000,Texas,south,19200,17,Female,Other,Single,0
+250,2000,Texas,south,37500,49,Male,Black,Married,0
+252,2000,Texas,south,141900,43,Male,White,Single,141900
+253,2000,Texas,south,45800,46,Female,White,Single,45800
+255,2000,Texas,south,38000,37,Female,White,Married,0
+258,2000,Texas,south,51000,45,Female,White,Married,20000
+259,2000,Texas,south,55000,44,Male,White,Divorced,55000
+260,2000,Texas,south,59300,39,Male,Black,Married,26300
+261,2000,Texas,south,58000,23,Male,White,Married,36000
+263,2000,Texas,south,13000,20,Female,White,Single,13000
+265,2000,Texas,south,63600,54,Male,White,Married,-4400
+266,2000,Texas,south,0,52,Female,White,Widowed,0
+267,2000,Texas,south,11300,70,Male,White,Widowed,5100
+268,2000,District of Columbia,east,30000,27,Female,White,Single,30000
+269,2000,District of Columbia,east,125680,16,Male,White,Single,17190
+270,2000,Colorado,west,26700,30,Female,Other,Single,26700
+271,2000,Colorado,west,12900,48,Male,White,Divorced,100
+272,2000,Colorado,west,892050,46,Male,White,Married,446000
+273,2000,Colorado,west,49100,35,Male,Other,Married,13000
+275,2000,Connecticut,east,0,52,Male,White,Divorced,51000
+276,2000,Connecticut,east,80100,16,Male,White,Single,0
+277,2000,Connecticut,east,129300,32,Female,White,Married,34300
+278,2000,Iowa,north,48000,47,Male,White,Married,36000
+279,2000,Iowa,north,14300,61,Female,White,Divorced,14300
+282,2000,Iowa,north,93000,48,Male,White,Married,21000
+283,2000,Kentucky,south,30100,29,Male,White,Married,24000
+284,2000,Kentucky,south,6800,30,Female,White,Married,3500
+285,2000,Kentucky,south,74200,66,Female,White,Married,23700
+286,2000,Kentucky,south,100000,37,Male,Black,Married,100000
+287,2000,Kentucky,south,3800,60,Male,Black,Widowed,3800
+288,2000,Kentucky,south,458000,57,Male,White,Married,456000
+289,2000,Maine,east,10700,39,Male,White,Single,10700
+290,2000,Massachusetts,east,34300,82,Female,White,Widowed,22700
+291,2000,Massachusetts,east,0,18,Female,Other,Single,0
+292,2000,Massachusetts,east,112500,24,Female,White,Single,37500
+293,2000,Massachusetts,east,116720,48,Female,White,Married,51500
+294,2000,Massachusetts,east,60700,36,Male,White,Married,60000
+295,2000,Massachusetts,east,51500,15,Male,White,Single,0
+296,2000,Massachusetts,east,92000,39,Female,White,Married,40000
+297,2000,Massachusetts,east,31300,31,Female,White,Married,0
+298,2000,Massachusetts,east,10250,23,Male,White,Single,12500
+299,2000,Massachusetts,east,89100,75,Female,White,Married,60900
+300,2000,Massachusetts,east,82700,39,Female,White,Married,32700
+302,2000,Montana,west,36000,29,Male,White,Married,36000
+306,2000,Nevada,west,23000,28,Male,Other,Single,23000
+307,2000,New Mexico,west,35900,70,Male,Other,Married,10600
+308,2000,New Mexico,west,0,46,Male,White,Divorced,44000
+312,2000,Oregon,west,25900,61,Male,White,Married,0
+313,2000,Oregon,west,24000,31,Male,White,Single,24000
+316,2000,Utah,west,76500,36,Male,White,Married,72600
+317,2000,Utah,west,15000,29,Female,White,Single,15000
+319,2000,Arizona,west,46800,53,Female,White,Married,30000
+320,2000,Arizona,west,30000,60,Female,White,Widowed,30000
+321,2000,Arizona,west,0,67,Female,White,Widowed,0
+322,2000,Arizona,west,51000,27,Male,White,Married,14000
+324,2000,Arizona,west,45000,48,Male,Other,Married,45000
+326,2000,Delaware,east,46200,85,Female,White,Widowed,9100
+327,2000,Georgia,south,21100,57,Female,White,Married,7600
+328,2000,Georgia,south,42524,39,Male,White,Single,10424
+329,2000,Georgia,south,122000,52,Male,White,Married,110000
+330,2000,Georgia,south,40900,38,Female,White,Married,2900
+334,2000,Georgia,south,145600,37,Female,White,Married,46400
+335,2000,Georgia,south,56740,53,Female,White,Divorced,56740
+336,2000,Georgia,south,47400,40,Male,Black,Married,23300
+338,2000,Georgia,south,35000,27,Male,Black,Single,35000
+339,2000,Georgia,south,20000,28,Female,Black,Married,15000
+340,2000,Georgia,south,26700,30,Male,Black,Single,16800
+341,2000,Georgia,south,42700,45,Female,Black,Divorced,21000
+342,2000,Georgia,south,21200,59,Female,Black,Widowed,21200
+343,2000,Georgia,south,24000,67,Male,Other,Married,19700
+346,2000,Michigan,north,49000,15,Female,White,Single,0
+347,2000,Michigan,north,87880,16,Female,White,Single,480
+350,2000,Michigan,north,77620,35,Male,White,Married,76020
+351,2000,Michigan,north,24900,71,Male,White,Married,18900
+352,2000,Michigan,north,69220,48,Male,White,Married,37000
+353,2000,Michigan,north,25980,18,Male,White,Single,980
+354,2000,Michigan,north,92000,46,Male,White,Married,80900
+355,2000,Michigan,north,69000,40,Male,Other,Single,69000
+357,2000,Michigan,north,113500,44,Male,White,Married,86000
+358,2000,Michigan,north,48000,31,Female,Other,Married,20000
+359,2000,Minnesota,north,75000,35,Female,White,Married,17000
+360,2000,Minnesota,north,55600,26,Female,White,Married,34100
+361,2000,Minnesota,north,10000,46,Male,White,Single,0
+362,2000,Minnesota,north,92900,54,Male,White,Married,43000
+364,2000,Minnesota,north,46000,37,Female,White,Single,46000
+365,2000,Minnesota,north,33200,42,Female,White,Single,33200
+366,2000,Minnesota,north,17000,69,Female,White,Widowed,17000
+367,2000,Minnesota,north,0,81,Female,White,Widowed,0
+368,2000,Minnesota,north,52500,16,Male,White,Single,0
+371,2000,New Hampshire,east,61500,57,Male,White,Married,14700
+372,2000,North Carolina,east,60720,18,Male,White,Single,980
+373,2000,North Carolina,east,12600,24,Male,White,Single,3600
+374,2000,North Carolina,east,4800,30,Male,Black,Single,0
+376,2000,North Carolina,east,38000,25,Male,Black,Married,28000
+378,2000,North Carolina,east,120000,35,Male,White,Married,60000
+379,2000,North Carolina,east,52500,60,Female,White,Married,8200
+381,2000,South Carolina,east,111000,53,Male,White,Married,70000
+382,2000,South Carolina,east,5000,40,Male,White,Divorced,5000
+384,2000,South Carolina,east,33100,78,Male,White,Married,26700
+385,2000,South Carolina,east,86720,60,Male,White,Married,24100
+386,2000,South Carolina,east,49900,52,Male,White,Married,9000
+387,2000,South Carolina,east,53000,42,Female,Black,Married,15000
+389,2000,South Carolina,east,54000,26,Female,White,Married,23000
+390,2000,Tennessee,south,15000,34,Female,White,Married,12600
+391,2000,Tennessee,south,148400,73,Male,White,Married,140900
+392,2000,Tennessee,south,45800,27,Male,White,Single,12800
+393,2000,Tennessee,south,84000,40,Male,White,Married,68000
+394,2000,Tennessee,south,29000,22,Female,White,Married,9000
+395,2000,Tennessee,south,25000,26,Male,White,Divorced,25000
+396,2000,Tennessee,south,66400,18,Female,White,Single,15000
+397,2000,Washington,east,11620,39,Female,White,Single,11620
+398,2000,Washington,east,36400,49,Male,White,Single,50000
+399,2000,Washington,east,12000,27,Male,Other,Married,16000
+400,2000,Washington,east,12300,23,Female,White,Single,4980
+401,2000,Washington,east,18150,30,Male,White,Married,13500
+402,2000,Washington,east,0,39,Male,Other,Single,0
+403,2000,Washington,east,21500,64,Male,Other,Widowed,15000
+404,2000,Washington,east,48200,71,Male,White,Married,42600
+407,2000,Washington,east,20000,18,Male,White,Single,0
+408,2000,West Virginia,east,0,87,Male,White,Widowed,0
+409,2000,Wisconsin,north,72520,31,Male,White,Married,39510
+410,2000,Wisconsin,north,34500,63,Male,White,Divorced,34500
+411,2000,Wisconsin,north,38400,78,Male,White,Single,38400
+412,2000,Wisconsin,north,45000,29,Female,White,Married,20000
+414,2000,Wisconsin,north,33780,30,Male,White,Single,33780
+415,2000,Wisconsin,north,175000,61,Male,White,Married,55000
+416,2000,Wisconsin,north,53000,40,Male,White,Divorced,49100
+417,2000,Wisconsin,north,5080,21,Male,White,Single,6420
+420,2000,Hawaii,west,108484,49,Female,Other,Married,22000
+421,2000,Hawaii,west,44410,54,Female,Other,Married,34600
+422,2000,Idaho,west,38800,60,Male,White,Married,23000
+424,2000,Indiana,north,8000,85,Male,Black,Widowed,8000
+426,2000,Indiana,north,31500,29,Male,White,Married,6500
+427,2000,Indiana,north,36000,33,Male,White,Divorced,36000
+428,2000,Indiana,north,42900,73,Female,White,Single,38900
+429,2000,Indiana,north,5000,20,Female,White,Single,5000
+430,2000,Indiana,north,11580,76,Female,White,Widowed,11580
+431,2000,Indiana,north,78700,37,Male,Other,Married,39920
+432,2000,Indiana,north,29340,57,Female,White,Married,29340
+433,2000,Indiana,north,77500,29,Female,White,Married,45500
+434,2000,Indiana,north,36000,26,Female,White,Married,0
+436,2000,Indiana,north,64500,40,Female,White,Divorced,9000
+439,2000,Indiana,north,25000,70,Female,White,Widowed,15800
+440,2000,Louisiana,south,43000,37,Female,White,Married,24000
+441,2000,Louisiana,south,13300,71,Male,Black,Widowed,13300
+442,2000,Louisiana,south,30900,49,Male,White,Married,29800
+444,2000,Louisiana,south,54090,31,Male,White,Married,6000
+445,2000,Louisiana,south,146500,74,Male,White,Married,104800
+447,2000,Louisiana,south,21700,71,Male,White,Single,21700
+448,2000,Louisiana,south,10000,54,Male,Black,Married,0
+450,2000,Louisiana,south,0,54,Male,Black,Divorced,12100
+451,2000,Louisiana,south,8100,93,Female,White,Widowed,8100
+452,2000,Mississippi,south,1400,32,Female,Black,Single,1400
+453,2000,Mississippi,south,39900,46,Female,White,Married,25000
+454,2000,Mississippi,south,57700,45,Female,Black,Married,0
+457,2000,Missouri,south,16300,70,Male,White,Married,11800
+458,2000,Missouri,south,54000,41,Female,Black,Single,54000
+460,2000,Missouri,south,15600,44,Female,White,Divorced,14000
+461,2000,Missouri,south,9400,81,Female,White,Widowed,9400
+463,2000,Missouri,south,25280,81,Male,White,Married,16300
+464,2000,Missouri,south,55500,17,Female,White,Single,0
+465,2000,Missouri,south,22200,30,Male,White,Married,15700
+468,2000,Pennsylvania,east,74490,42,Male,White,Married,68020
+471,2000,Pennsylvania,east,40300,29,Female,White,Married,2800
+472,2000,Pennsylvania,east,18600,61,Female,White,Single,6700
+474,2000,Pennsylvania,east,0,25,Female,White,Single,16000
+475,2000,Pennsylvania,east,24000,41,Male,White,Married,24000
+480,2000,Pennsylvania,east,17800,15,Male,Other,Single,0
+481,2000,Pennsylvania,east,33000,32,Female,Black,Single,27000
+483,2000,Pennsylvania,east,44000,32,Female,White,Married,21000
+484,2000,Pennsylvania,east,24700,32,Female,White,Single,9500
+485,2000,Pennsylvania,east,0,24,Male,White,Single,2200
+486,2000,Pennsylvania,east,69000,18,Male,White,Single,15000
+487,2000,Pennsylvania,east,60300,41,Female,White,Married,9100
+489,2000,Pennsylvania,east,171000,38,Male,White,Married,103000
+490,2000,Pennsylvania,east,103000,43,Male,White,Married,68000
+491,2000,Pennsylvania,east,51700,76,Male,White,Married,14500
+492,2000,Pennsylvania,east,119800,24,Male,White,Single,22000
+493,2000,Virginia,east,18000,36,Male,White,Married,18000
+495,2000,Virginia,east,8500,68,Female,White,Divorced,8500
+497,2000,Virginia,east,15000,60,Male,Black,Widowed,15000
+499,2000,Virginia,east,39370,47,Male,White,Married,19800

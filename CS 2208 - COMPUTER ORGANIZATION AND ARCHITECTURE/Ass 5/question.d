@@ -1,0 +1,1 @@
+.\question.o: question.s

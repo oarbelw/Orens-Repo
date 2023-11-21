@@ -1,0 +1,20 @@
+body {background-color: mediumpurple;
+        color: lightcyan;
+        font-family: 'Righteous', cursive;
+}
+
+a {
+    color: lightpink;
+    font-weight: bold;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+.seasons {
+    font-family: 'Righteous', cursive;
+    font-family: 'Smooch', cursive;
+    font-size: 24px;
+    color: azure;
+}

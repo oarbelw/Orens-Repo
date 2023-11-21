@@ -1,0 +1,62 @@
+Script started on 2023-04-05 10:26:32-04:00 [TERM="xterm-256color" TTY="/dev/pts/158" COLUMNS="80" LINES="24"]
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn5[?2004h[oarbelwo@compute asn5]$ date
+[?2004lWed 05 Apr 2023 10:26:38 AM EDT
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn5[?2004h[oarbelwo@compute asn5]$ whoami
+[?2004loarbelwo
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn5[?2004h[oarbelwo@compute asn5]$ pwd
+[?2004l/home/oarbelwo/courses/cs2211/Asn/asn5
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn5[?2004h[oarbelwo@compute asn5]$ ls
+[?2004lbstree.c  datatype.c  headers.h  makefile  matrix.h  testinput.txt
+bstree.h  datatype.h  main.c     matrix.c  script
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn5[?2004h[oarbelwo@compute asn5]$ make [K
+[?2004lgcc -c main.c
+gcc -c bstree.c
+gcc -c datatype.c
+gcc -c matrix.c
+gcc -o mymatrix main.o bstree.o datatype.o matrix.o
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn5[?2004h[oarbelwo@compute asn5]$ ./mymatrix[Kx 
+[?2004lhello     bba  aa
+ aab aab
+bba aa^[[A     a
+aab abb
+bba   aaa
+String 1    String 2    Occurrence 
+aab         aab         1          
+aab         abb         1          
+bba         aa          2          
+bba         aaa         1          
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn5[?2004h[oarbelwo@compute asn5]$ he[K[K./mymatrix 
+[?2004lhello world
+hello     world
+goodbye    bye
+goodbye
+String 1    String 2    Occurrence 
+good        bye         1          
+hello       world       2          
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn5[?2004h[oarbelwo@compute asn5]$ cat testinput.txt 
+[?2004lhello world
+hi world
+ hello world
+good bye
+good   bye
+bye world
+bye
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn5[?2004h[oarbelwo@compute asn5]$ cat testinput.txt [7P./mymatrix[C[7Pmake./mymatrix < testinput.txt 
+[?2004lString 1    String 2    Occurrence 
+bye         world       1          
+good        bye         2          
+hello       world       2          
+hi          world       1          
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn5[?2004h[oarbelwo@compute asn5]$ ls
+[?2004lbstree.c  datatype.c  headers.h  makefile  matrix.o  testinput.txt
+bstree.h  datatype.h  main.c     matrix.c  [0m[01;32mmymatrix[0m
+bstree.o  datatype.o  main.o     matrix.h  script
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn5[?2004h[oarbelwo@compute asn5]$ make clean
+[?2004lrm -f mymatrix *.o core
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn5[?2004h[oarbelwo@compute asn5]$ ls
+[?2004lbstree.c  datatype.c  headers.h  makefile  matrix.h  testinput.txt
+bstree.h  datatype.h  main.c     matrix.c  script
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn5[?2004h[oarbelwo@compute asn5]$ exit
+[?2004lexit
+
+Script done on 2023-04-05 10:30:34-04:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,14 @@
+Script started on 2023-01-24 13:13:36-05:00 [TERM="xterm-256color" TTY="/dev/pts/25" COLUMNS="80" LINES="24"]
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1[?2004h[oarbelwo@compute asn1]$ date
+[?2004lTue 24 Jan 2023 01:13:38 PM EST
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1[?2004h[oarbelwo@compute asn1]$ whoami
+[?2004loarbelwo
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1[?2004h[oarbelwo@compute asn1]$ pwd
+[?2004l/home/oarbelwo/courses/cs2211/Asn/asn1
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1[?2004h[oarbelwo@compute asn1]$ pwdwhoami[2Pdateexit./asn1gcc -o asn1 asn1.c pwd[Kwhoami[3Ppwdgcc -o asn1 asn1.c 
+[?2004l]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1[?2004h[oarbelwo@compute asn1]$ ./asn1
+[?2004lHello, CS2211 2023!
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1[?2004h[oarbelwo@compute asn1]$ exit
+[?2004lexit
+
+Script done on 2023-01-24 13:14:24-05:00 [COMMAND_EXIT_CODE="0"]

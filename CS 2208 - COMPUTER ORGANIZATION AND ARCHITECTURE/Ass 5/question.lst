@@ -1,0 +1,323 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             question, CODE, READONLY
+    2 00000000                 ENTRY
+    3 00000000 E28F0070        ADR              r0, STRING1 ; we allocate r0 to
+                                                             point to the start
+                                                             of the first strin
+                                                            g 
+    4 00000004 E28F508A        ADR              r5, STRING2 ; we allocate r5 to
+                                                             point to the start
+                                                             of the second stri
+                                                            ng
+    5 00000008 E5DF9085        LDRB             r9, EoS     ;this loads the val
+                                                            ue of end of string
+                                                            , 0x00, to the 9th 
+                                                            register     
+    6 0000000C E4D01001 
+                       repeat  LDRB             r1, [r0], #1 ;pick up a charact
+                                                            er from r0 and stor
+                                                            e in r1, updating a
+                                                            nd incrementing the
+                                                             pointer
+    7 00000010 E5508002        LDRB             r8, [r0, #-2] ;this picks up th
+                                                            e previous characte
+                                                            r in the string in 
+                                                            order to track the 
+                                                            previous number 
+    8 00000014 E4D56001        LDRB             r6, [r5], #1 ;this picks up the
+                                                             adjactent characte
+                                                            r in the second str
+                                                            ing in order to be 
+                                                            able to put values 
+                                                            in the new string
+    9 00000018 E1510009        CMP              r1, r9      ;must check if we h
+                                                            ave reached the end
+                                                             of the string by c
+                                                            oming across EoS
+   10 0000001C 0A000014        BEQ              exitloop    ;if we are at the e
+                                                            nd of the string, w
+                                                            e exit the loop
+   11 00000020 E3A02000        MOV              r2, #0      ;the following set 
+                                                            these registers in 
+                                                            order to have somet
+                                                            hing to compare to 
+                                                            in the following
+   12 00000024 E3A03000        MOV              r3, #0
+   13 00000028 E3A03000        MOV              r3, #0
+   14 0000002C E3A04000        MOV              r4, #0
+   15 00000030 E3580023        CMP              r8, #0x23   ; we start from # o
+                                                            n ASCII table since
+                                                             we want to find an
+                                                            ything besides digi
+                                                            ts and characters, 
+                                                            excluding spaces an
+                                                            d double quotes
+   16 00000034 A278A07A        RSBGES           r10, r8, #z ;this updates the f
+                                                            lags to check withi
+                                                            n the range of 0x23
+                                                             and 0x7A
+   17 00000038 AA000007        BGE              remain      ;we can jump to kee
+                                                            ping the number bec
+
+
+
+ARM Macro Assembler    Page 2 
+
+
+                                                            ause we know that w
+                                                            e cant remove it if
+                                                             theres a solid cha
+                                                            racter in the place
+                                                             before
+   18 0000003C E3510074        CMP              r1, #t      ;we check to see if
+                                                             the value we are p
+                                                            ointing to is equal
+                                                             to t, if it is not
+                                                            , r2 is never chang
+                                                            ed and the next few
+                                                             lines are disregar
+                                                            ded
+   19 00000040 05D02000        LDRBEQ           r2, [r0]    ;if it is equal to 
+                                                            t, it points to nex
+                                                            t charater in order
+                                                             to check if the ne
+                                                            xt one matches
+   20 00000044 E3520068        CMP              r2, #h      ;we do the same thi
+                                                            ng here as above, c
+                                                            heck to see if h is
+                                                             the next char
+   21 00000048 05D03001        LDRBEQ           r3, [r0, #1] ;if it is the same
+                                                             character, the poi
+                                                            nter is updated to 
+                                                            the next value
+   22 0000004C E3530065        CMP              r3, #e      ;same as above
+   23 00000050 05D04002        LDRBEQ           r4, [r0, #2] ;same as above
+   24 00000054 E3540023        CMP              r4, #0x23   ;starting from # on
+                                                             ASCII table, as st
+                                                            ated in line 15
+   25 00000058 A274207A        RSBGES           r2, r4, #z  ;we want to create 
+                                                            the valid character
+                                                             range similar to l
+                                                            ine 16
+   26 0000005C A5C61000 
+                       remain  STRBGE           r1, [r6]    ;if it is between #
+                                                             and z inlcusive, w
+                                                            e do not remove the
+                                                            m, and we store in 
+                                                            string2 
+   27 00000060 B3A0A020        MOVLT            r10, #0x20  ;if it is not in th
+                                                            e range, we take #0
+                                                            x20, the value for 
+                                                            space, and put it i
+                                                            n r10 for now
+   28 00000064 B5C6A000        STRBLT           r10, [r6]   ;if it is just the 
+                                                            word 'the', we repl
+                                                            ace t,h,e with a sp
+                                                            ace, 0x20. In this 
+                                                            case we store 0 whe
+                                                            re t is
+   29 00000068 B5C6A001        STRBLT           r10, [r6, #1] ; now we store wh
+                                                            ere h is
+   30 0000006C B5C6A002        STRBLT           r10, [r6, #2] ; now we store wh
+                                                            ere e is
+   31 00000070 EAFFFFE5        B                repeat      ;we repeat until th
+                                                            e EoS is found
+   32 00000074 EAFFFFFE 
+
+
+
+ARM Macro Assembler    Page 3 
+
+
+                       exitloop
+                               B                exitloop    ;once the loop is e
+                                                            xited, we create an
+                                                             infinte loop to te
+                                                            rminate the project
+                                                            
+   33 00000078                 AREA             question, DATA, READWRITE
+   34 00000078 61 6E 64 
+              20 74 68 
+              65 20 6D 
+              61 6E 20 
+              73 61 69 
+              64 20 74 
+              68 65 79 
+              20 6D 75 
+              73 74 20 
+              67 6F    STRING1 DCB              "and the man said they must go"
+ 
+                                                            ;String1
+   35 00000095 00      EoS     DCB              0x00        ;end of string1
+   36 00000096 00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+
+
+
+ARM Macro Assembler    Page 4 
+
+
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00       STRING2 space            0x7F        ;just allocating 12
+                                                            7 bytes
+   37 00000115 00000074 
+                       t       EQU              0x74
+   38 00000115 00000068 
+                       h       EQU              0x68
+   39 00000115 00000065 
+                       e       EQU              0x65
+   40 00000115 0000007A 
+                       z       EQU              0x7A
+   41 00000115                 END
+Command Line: --debug --xref --bi --apcs=interwork --depend=.\question.d -o.\qu
+estion.o -I"D:\Program Files\KEIL\ARM\RV31\INC" -I"D:\Program Files\KEIL\ARM\CM
+SIS\Include" --predefine="__EVAL SETA 1" --list=.\question.lst question.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+EoS 00000095
+
+Symbol: EoS
+   Definitions
+      At line 35 in file question.s
+   Uses
+      At line 5 in file question.s
+Comment: EoS used once
+STRING1 00000078
+
+Symbol: STRING1
+   Definitions
+      At line 34 in file question.s
+   Uses
+      At line 3 in file question.s
+Comment: STRING1 used once
+STRING2 00000096
+
+Symbol: STRING2
+   Definitions
+      At line 36 in file question.s
+   Uses
+      At line 4 in file question.s
+Comment: STRING2 used once
+exitloop 00000074
+
+Symbol: exitloop
+   Definitions
+      At line 32 in file question.s
+   Uses
+      At line 10 in file question.s
+      At line 32 in file question.s
+
+question 00000000
+
+Symbol: question
+   Definitions
+      At line 1 in file question.s
+   Uses
+      None
+Comment: question unused
+remain 0000005C
+
+Symbol: remain
+   Definitions
+      At line 26 in file question.s
+   Uses
+      At line 17 in file question.s
+Comment: remain used once
+repeat 0000000C
+
+Symbol: repeat
+   Definitions
+      At line 6 in file question.s
+   Uses
+      At line 31 in file question.s
+Comment: repeat used once
+7 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Absolute symbols
+
+e 00000065
+
+Symbol: e
+   Definitions
+      At line 39 in file question.s
+   Uses
+      At line 22 in file question.s
+Comment: e used once
+h 00000068
+
+Symbol: h
+   Definitions
+      At line 38 in file question.s
+   Uses
+      At line 20 in file question.s
+Comment: h used once
+t 00000074
+
+Symbol: t
+   Definitions
+      At line 37 in file question.s
+   Uses
+      At line 18 in file question.s
+Comment: t used once
+z 0000007A
+
+Symbol: z
+   Definitions
+      At line 40 in file question.s
+   Uses
+      At line 16 in file question.s
+      At line 25 in file question.s
+
+4 symbols
+342 symbols in table

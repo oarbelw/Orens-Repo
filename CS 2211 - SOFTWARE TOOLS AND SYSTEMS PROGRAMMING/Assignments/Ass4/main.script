@@ -1,0 +1,42 @@
+Script started on 2023-03-19 00:51:33-04:00 [TERM="xterm-256color" TTY="/dev/pts/234" COLUMNS="147" LINES="34"]
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn4[?2004h[oarbelwo@compute asn4]$ date
+[?2004lSun 19 Mar 2023 12:51:48 AM EDT
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn4[?2004h[oarbelwo@compute asn4]$ whoami
+[?2004loarbelwo
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn4[?2004h[oarbelwo@compute asn4]$ pwd
+[?2004l/home/oarbelwo/courses/cs2211/Asn/asn4
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn4[?2004h[oarbelwo@compute asn4]$ ls
+[?2004ldefinitions.h  headers.h  inputtext.txt  line.c  line.h  [0m[01;32mmain[0m  main.c  main.script  para.c  para.h  word.c  word.h
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn4[?2004h[oarbelwo@compute asn4]$ Deal[K[K[K[K./main
+[?2004lDeal with it
+It is what it is
+
+Deal with it
+It is what it is
+enter a word to search paragraph for: it
+Word found at line 1 at word 3
+Word found at line 2 at word 4
+is
+Word found at line 2 at word 2
+fine
+the word you entered was not found
+
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn4[?2004h[oarbelwo@compute asn4]$ ./main < n[K[K[K[K[K[K[K[K[K[Khead inputtext.txt 
+[?2004lDeal with it
+It is what it is
+
+it
+is
+fine
+
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn4[?2004h[oarbelwo@compute asn4]$ ./main < inputtext.txt 
+[?2004lDeal with it
+It is what it is
+enter a word to search paragraph for: Word found at line 1 at word 3
+Word found at line 2 at word 4
+Word found at line 2 at word 2
+the word you entered was not found
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn4[?2004h[oarbelwo@compute asn4]$ exiat[K[Kt
+[?2004lexit
+
+Script done on 2023-03-19 00:53:38-04:00 [COMMAND_EXIT_CODE="0"]

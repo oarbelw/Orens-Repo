@@ -1,0 +1,157 @@
+Script started on 2023-02-08 11:46:07-05:00 [TERM="xterm-256color" TTY="/dev/pts/40" COLUMNS="84" LINES="33"]
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn2[?2004h[oarbelwo@compute asn2]$ dadte
+[?2004lbash: dadte: command not found
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn2[?2004h[oarbelwo@compute asn2]$ date
+[?2004lWed 08 Feb 2023 11:46:14 AM EST
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn2[?2004h[oarbelwo@compute asn2]$ whoami
+[?2004loarbelwo
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn2[?2004h[oarbelwo@compute asn2]$ w[Kpwd
+[?2004l/home/oarbelwo/courses/cs2211/Asn/asn2
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn2[?2004h[oarbelwo@compute asn2]$ ls
+[?2004l[0m[01;32mconverter[0m  converter.c  converter.script  exp_calculator.c  [01;32mexp_calculator.script[0m
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn2[?2004h[oarbelwo@compute asn2]$ ./converter
+[?2004lPlease enter one of the following: 
+1 for conversion between Celsius and Fahrenheit
+2 for conversion between Centimetre and Inch
+3 for conversion between Kilogram and Pound
+4 for conversion between Meter and Feet
+q or Q to quit
+5
+Please enter one of the following: 
+1 for conversion between Celsius and Fahrenheit
+2 for conversion between Centimetre and Inch
+3 for conversion between Kilogram and Pound
+4 for conversion between Meter and Feet
+q or Q to quit
+l
+Please enter one of the following: 
+1 for conversion between Celsius and Fahrenheit
+2 for conversion between Centimetre and Inch
+3 for conversion between Kilogram and Pound
+4 for conversion between Meter and Feet
+q or Q to quit
+1
+Please enter one of the following: 
+C for conversion from Celsius to Fahrenheit
+F for conversion from Fahrenheit to Celsius
+v
+Please enter one of the following: 
+C for conversion from Celsius to Fahrenheit
+F for conversion from Fahrenheit to Celsius
+C
+Enter temperature in Celsius: 21
+Fahrenheit equivalent: 69.8
+Please enter one of the following: 
+1 for conversion between Celsius and Fahrenheit
+2 for conversion between Centimetre and Inch
+3 for conversion between Kilogram and Pound
+4 for conversion between Meter and Feet
+q or Q to quit
+1
+Please enter one of the following: 
+C for conversion from Celsius to Fahrenheit
+F for conversion from Fahrenheit to Celsius
+F
+Enter temperature in Fahrenheit: 21  100
+Celsius equivalent: 37.8
+Please enter one of the following: 
+1 for conversion between Celsius and Fahrenheit
+2 for conversion between Centimetre and Inch
+3 for conversion between Kilogram and Pound
+4 for conversion between Meter and Feet
+q or Q to quit
+2
+Please enter one of the following: 
+C for conversion from Centimetre to Inch
+I for conversion from Inch to Centimetre
+4
+Please enter one of the following: 
+C for conversion from Centimetre to Inch
+I for conversion from Inch to Centimetre
+C
+Enter centimetres: 100
+Inches equivalent: 39.37
+Please enter one of the following: 
+1 for conversion between Celsius and Fahrenheit
+2 for conversion between Centimetre and Inch
+3 for conversion between Kilogram and Pound
+4 for conversion between Meter and Feet
+q or Q to quit
+2
+Please enter one of the following: 
+C for conversion from Centimetre to Inch
+I for conversion from Inch to Centimetre
+I
+Enter inches: 64
+Centimetres equivalent: 162.56
+Please enter one of the following: 
+1 for conversion between Celsius and Fahrenheit
+2 for conversion between Centimetre and Inch
+3 for conversion between Kilogram and Pound
+4 for conversion between Meter and Feet
+q or Q to quit
+3
+Please enter one of the following: 
+K for conversion from Kilogram to Pound
+P for conversion from Pound to Kilogram
+1
+Please enter one of the following: 
+K for conversion from Kilogram to Pound
+P for conversion from Pound to Kilogram
+K
+Enter Kilograms: 231
+Pounds equivalent: 509.35
+Please enter one of the following: 
+1 for conversion between Celsius and Fahrenheit
+2 for conversion between Centimetre and Inch
+3 for conversion between Kilogram and Pound
+4 for conversion between Meter and Feet
+q or Q to quit
+3
+Please enter one of the following: 
+K for conversion from Kilogram to Pound
+P for conversion from Pound to Kilogram
+P
+Enter Pounds: 32.2
+Kilograms equivalent: 14.60
+Please enter one of the following: 
+1 for conversion between Celsius and Fahrenheit
+2 for conversion between Centimetre and Inch
+3 for conversion between Kilogram and Pound
+4 for conversion between Meter and Feet
+q or Q to quit
+4
+Please enter one of the following: 
+M for conversion from Meter to Feet
+F for conversion from Feet to Meter
+3
+Please enter one of the following: 
+M for conversion from Meter to Feet
+F for conversion from Feet to Meter
+M
+Enter Meters: 100 23.2
+Feet equivalent: 3357.12
+Please enter one of the following: 
+1 for conversion between Celsius and Fahrenheit
+2 for conversion between Centimetre and Inch
+3 for conversion between Kilogram and Pound
+4 for conversion between Meter and Feet
+q or Q to quit
+4
+Please enter one of the following: 
+M for conversion from Meter to Feet
+F for conversion from Feet to Meter
+F
+Enter Feet: 23.3
+Meter equivalent: 7.10
+Please enter one of the following: 
+1 for conversion between Celsius and Fahrenheit
+2 for conversion between Centimetre and Inch
+3 for conversion between Kilogram and Pound
+4 for conversion between Meter and Feet
+q or Q to quit
+q
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn2[?2004h[oarbelwo@compute asn2]$ exit
+[?2004lexit
+
+Script done on 2023-02-08 11:48:35-05:00 [COMMAND_EXIT_CODE="0"]

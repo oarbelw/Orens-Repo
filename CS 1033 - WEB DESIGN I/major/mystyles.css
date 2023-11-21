@@ -1,0 +1,27 @@
+body {
+    background-color: #FFEFB9;
+    color: #FF5521;
+    font-family: 'Indie Flower', cursive;
+}
+
+.activities {
+    font-family: 'Righteous', cursive;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+a {
+    color: #0064C7;
+    font-weight: bold;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+h4 {
+    font-size: 20;
+}
+
+.page {
+    font-size: 20;
+}

@@ -1,0 +1,57 @@
+Script started on 2023-01-24 12:49:14-05:00 [TERM="xterm-256color" TTY="/dev/pts/25" COLUMNS="80" LINES="24"]
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1/q2q3[?2004h[oarbelwo@compute q2q3]$ date
+[?2004lTue 24 Jan 2023 12:49:19 PM EST
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1/q2q3[?2004h[oarbelwo@compute q2q3]$ who am i
+[?2004l]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1/q2q3[?2004h[oarbelwo@compute q2q3]$ whoami
+[?2004loarbelwo
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1/q2q3[?2004h[oarbelwo@compute q2q3]$ pwd
+[?2004l/home/oarbelwo/courses/cs2211/Asn/asn1/q2q3
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1/q2q3[?2004h[oarbelwo@compute q2q3]$ pwdwhoami am i[4Pdate[1Psecho 'Bartlett's Familiar Quotations'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"Bartlett's Familiar Quotations"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C\"Bartlett\'s Familiar Quotations\"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cps[Ktop -u oarbelwo[K[3Pwhotop -u oarbelwops[Kecho \"Bartlett\'s Familiar Quotations\"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3P"Bartlett's Familiar Quotations"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'Bartlett's Familiar Quotations'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdas[Ktewho am i[2Pami[3Ppwd[Kpwdwhoami am i[4Pdate[1Psecho 'Bartlett's Familiar Quotations'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"Bartlett's Familiar Quotations"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C\"Bartlett\'s Familiar Quotations\"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cps[Ktop -u oarbelwo[K[3Pwhotoppwd[1Plscd $HOMEwhereis hello.c[7Pcd $HOMEls[Kpwdtopwhotop -u oarbelwops[Kecho \"Bartlett\'s Familiar Quotations\"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3P"Bartlett's Familiar Quotations"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'Bartlett's Familiar Quotations'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdas[Ktewho am i[2Pami[3Ppwd[K/su[K[Kurs[K[Ksr/bin/ls df2 df2[K1 tf2 tf1
+[?2004l/usr/bin/ls: cannot access 'tf2': No such file or directory
+/usr/bin/ls: cannot access 'tf1': No such file or directory
+df1:
+df1.txt
+
+df2:
+df2.txt
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1/q2q3[?2004h[oarbelwo@compute q2q3]$ /us[K[K[Kls [K[K[Kls -l
+[?2004ltotal 3
+-rw-r--r-- 1 oarbelwo oarbelwo 0 Jan 24 12:49 asn1_q3.script
+drwxr-xr-x 2 oarbelwo oarbelwo 3 Jan 24 12:13 [0m[01;34mdf1[0m
+drwxr-xr-x 2 oarbelwo oarbelwo 3 Jan 24 12:13 [01;34mdf2[0m
+-rw-r--r-- 1 oarbelwo oarbelwo 0 Jan 24 12:12 tf1.txt
+-rw-r--r-- 1 oarbelwo oarbelwo 0 Jan 24 12:12 tf2.txt
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1/q2q3[?2004h[oarbelwo@compute q2q3]$ ls -l[Kn
+[?2004ltotal 3
+-rw-r--r-- 1 2005501 2005501 0 Jan 24 12:49 asn1_q3.script
+drwxr-xr-x 2 2005501 2005501 3 Jan 24 12:13 [0m[01;34mdf1[0m
+drwxr-xr-x 2 2005501 2005501 3 Jan 24 12:13 [01;34mdf2[0m
+-rw-r--r-- 1 2005501 2005501 0 Jan 24 12:12 tf1.txt
+-rw-r--r-- 1 2005501 2005501 0 Jan 24 12:12 tf2.txt
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1/q2q3[?2004h[oarbelwo@compute q2q3]$ ls -n[Ko
+[?2004ltotal 3
+-rw-r--r-- 1 oarbelwo 0 Jan 24 12:49 asn1_q3.script
+drwxr-xr-x 2 oarbelwo 3 Jan 24 12:13 [0m[01;34mdf1[0m
+drwxr-xr-x 2 oarbelwo 3 Jan 24 12:13 [01;34mdf2[0m
+-rw-r--r-- 1 oarbelwo 0 Jan 24 12:12 tf1.txt
+-rw-r--r-- 1 oarbelwo 0 Jan 24 12:12 tf2.txt
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1/q2q3[?2004h[oarbelwo@compute q2q3]$ --format=lonmg[K[Kg
+[?2004lbash: --format=long: command not found
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1/q2q3[?2004h[oarbelwo@compute q2q3]$ --format=longl--format=longs--format=long --format=long
+[?2004ltotal 3
+-rw-r--r-- 1 oarbelwo oarbelwo 0 Jan 24 12:49 asn1_q3.script
+drwxr-xr-x 2 oarbelwo oarbelwo 3 Jan 24 12:13 [0m[01;34mdf1[0m
+drwxr-xr-x 2 oarbelwo oarbelwo 3 Jan 24 12:13 [01;34mdf2[0m
+-rw-r--r-- 1 oarbelwo oarbelwo 0 Jan 24 12:12 tf1.txt
+-rw-r--r-- 1 oarbelwo oarbelwo 0 Jan 24 12:12 tf2.txt
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1/q2q3[?2004h[oarbelwo@compute q2q3]$ [7m/usr/bin/ls df1 df2 -d -l[27m/usr/bin/ls df1 df2 -d -l
+[?2004ldrwxr-xr-x 2 oarbelwo oarbelwo 3 Jan 24 12:13 df1
+drwxr-xr-x 2 oarbelwo oarbelwo 3 Jan 24 12:13 df2
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1/q2q3[?2004h[oarbelwo@compute q2q3]$ /s[Kusr/bin [K/k[Kls
+[?2004lasn1_q3.script	df1  df2  tf1.txt  tf2.txt
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1/q2q3[?2004h[oarbelwo@compute q2q3]$ /usr/bin/ls .
+[?2004lasn1_q3.script	df1  df2  tf1.txt  tf2.txt
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn1/q2q3[?2004h[oarbelwo@compute q2q3]$ exit
+[?2004lexit
+
+Script done on 2023-01-24 12:51:37-05:00 [COMMAND_EXIT_CODE="0"]

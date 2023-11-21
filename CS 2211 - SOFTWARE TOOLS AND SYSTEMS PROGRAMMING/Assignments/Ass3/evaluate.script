@@ -1,0 +1,67 @@
+Script started on 2023-02-26 11:30:54-05:00 [TERM="xterm-256color" TTY="/dev/pts/11" COLUMNS="93" LINES="42"]
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn3[?2004h[oarbelwo@compute asn3]$ date
+[?2004lSun 26 Feb 2023 11:31:04 AM EST
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn3[?2004h[oarbelwo@compute asn3]$ whoami
+[?2004loarbelwo
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn3[?2004h[oarbelwo@compute asn3]$ pwd
+[?2004l/home/oarbelwo/courses/cs2211/Asn/asn3
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn3[?2004h[oarbelwo@compute asn3]$ ./evaluate 
+[?2004lSimple Arithmetic Expression Calculator: Enter an expression
+6
+Result: 6.000000
+Would you like to continue?
+Enter Y to continue inputting a simple arithmetic expression, or enter N to quit
+Y
+Simple Arithmetic Expression Calculator: Enter an expression
+2*4
+Result: 8.000000
+Would you like to continue?
+Enter Y to continue inputting a simple arithmetic expression, or enter N to quit
+Y
+Simple Arithmetic Expression Calculator: Enter an expression
+5 +2
+Result: 7.000000
+Would you like to continue?
+Enter Y to continue inputting a simple arithmetic expression, or enter N to quit
+Y
+Simple Arithmetic Expression Calculator: Enter an expression
+2.6 /2     2  / 2 -1.6^[[D^[[D            1.6 * 10
+Result: -14.700000
+Would you like to continue?
+Enter Y to continue inputting a simple arithmetic expression, or enter N to quit
+Y
+Simple Arithmetic Expression Calculator: Enter an expression
+-20.0   .0 * 2+  + 1.6 *10     10 - 100
+Result: -88.000000
+Would you like to continue?
+Enter Y to continue inputting a simple arithmetic expression, or enter N to quit
+Y
+Simple Arithmetic Expression Calculator: Enter an expression
+2.6 - -1.6 * 10 / 2v .0 + 2 * 2
+Result: 14.600000
+Would you like to continue?
+Enter Y to continue inputting a simple arithmetic expression, or enter N to quit
+Y
+Simple Arithmetic Expression Calculator: Enter an expression
+2.6 - 1.6 % 10 - 2.0
+Result: -1.000000
+Would you like to continue?
+Enter Y to continue inputting a simple arithmetic expression, or enter N to quit
+N
+Goodbye
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn3[?2004h[oarbelwo@compute asn3]$ ./evaluate 
+[?2004lSimple Arithmetic Expression Calculator: Enter an expression
+8
+Result: 8.000000
+Would you like to continue?
+Enter Y to continue inputting a simple arithmetic expression, or enter N to quit
+lq
+Error: Entered a value that is not Y or N!
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn3[?2004h[oarbelwo@compute asn3]$ ./evaluate 
+[?2004lSimple Arithmetic Expression Calculator: Enter an expression
+8 _ - 2x
+Error: invalid input, please enter valid numbers only!
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn3[?2004h[oarbelwo@compute asn3]$ exit
+[?2004lexit
+
+Script done on 2023-02-26 11:33:49-05:00 [COMMAND_EXIT_CODE="1"]

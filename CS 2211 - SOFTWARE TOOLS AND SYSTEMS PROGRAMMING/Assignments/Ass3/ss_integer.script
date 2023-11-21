@@ -1,0 +1,62 @@
+Script started on 2023-02-26 16:54:45-05:00 [TERM="xterm-256color" TTY="/dev/pts/22" COLUMNS="103" LINES="44"]
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn3[?2004h[oarbelwo@compute asn3]$ date
+[?2004lSun 26 Feb 2023 04:54:47 PM EST
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn3[?2004h[oarbelwo@compute asn3]$ whoami
+[?2004loarbelwo
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn3[?2004h[oarbelwo@compute asn3]$ pwd
+[?2004l/home/oarbelwo/courses/cs2211/Asn/asn3
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn3[?2004h[oarbelwo@compute asn3]$ pwdwhoami[2Pdateexit./ss_integer pwd[K./ss_integer 
+[?2004lPlease enter an integer:
+0
+ _  
+| | 
+|_| 
+
+Would you like to continue?
+ Enter Y to continue inputting an integer, or
+ Enter N to quit:
+Y
+Please enter an integer:
+- 2314    123456
+     _   _       _   _  
+  |  _|  _| |_| |_  |_  
+  | |_   _|   |  _| |_| 
+
+Would you like to continue?
+ Enter Y to continue inputting an integer, or
+ Enter N to quit:
+Y
+Please enter an integer:
+-123456
+           _   _       _   _  
+  _     |  _|  _| |_| |_  |_  
+        | |_   _|   |  _| |_| 
+
+Would you like to continue?
+ Enter Y to continue inputting an integer, or
+ Enter N to quit:
+Y
+Please enter an integer:
+-239123014
+       _   _   _       _   _   _          
+  _    _|  _| |_|   |  _|  _| | |   | |_| 
+      |_   _|  _|   | |_   _| |_|   |   | 
+
+Would you like to continue?
+ Enter Y to continue inputting an integer, or
+ Enter N to quit:
+Y
+Please enter an integer:
+12  1231245
+     _   _       _       _  
+  |  _|  _|   |  _| |_| |_  
+  | |_   _|   | |_    |  _| 
+
+Would you like to continue?
+ Enter Y to continue inputting an integer, or
+ Enter N to quit:
+Y N
+]0;oarbelwo@compute:~/courses/cs2211/Asn/asn3[?2004h[oarbelwo@compute asn3]$ exit
+[?2004lexit
+
+Script done on 2023-02-26 16:55:53-05:00 [COMMAND_EXIT_CODE="0"]
