@@ -1,0 +1,210 @@
+body {
+    background-color: #fff7fe;
+    background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+    margin:0;
+}
+
+.box {
+    display:inline-block;
+    vertical-align: top;
+}
+
+.wrapper {
+    width:1200px;
+    margin:auto;
+}
+
+.banner {
+    display:inline-block;
+    overflow:hidden;
+    margin: 1px;
+    vertical-align: top;
+    text-align: center;
+}
+
+ul.nav {
+    margin: 20px;
+    text-align: center;
+}
+
+ul.nav li {
+    color:white;
+    font-size:28px;
+    width:250px;
+    line-height:40px;
+    text-align:center;
+}
+
+ul.nav a {
+    text-decoration:none;
+}
+
+ul.nav li {
+    border-bottom: solid 3px #B982B9;
+}
+
+ul.nav li:hover {
+    background-color:rgba(255,255,255,0.5);
+    color:black;
+}
+
+.i2 {
+    width:598px;
+}
+
+.i3 {
+    width:398px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Sniglet', cursive;
+    font-size:30px;
+}
+
+h2 {
+    font-family: 'Sniglet', cursive;
+    font-size:25px;
+}
+
+.rounded-pic {
+    width:80%;
+    border-radius: 50%;
+}
+
+.squared-pic {
+    height: 225px; 
+    border-radius: 10%;
+}
+
+@keyframes flashBorderColour {
+    0% { border-color: red; }
+    100% { border-color: green; }
+} 
+
+.christmas-flowers {
+    border: solid 3px #FF0000;
+    animation: flashBorderColour 1s infinite linear alternate;
+}
+
+.roses{
+    border: solid 3px #FF0000;
+}
+
+.dahlia{
+    border: solid 3px #FC5BD1;
+}
+
+.summer{
+    border: solid 3px #FFE91B;
+}
+
+.purple{
+    border: solid 3px #951BFF;
+}
+
+.wedding {
+    border: solid 3px #F296B8;
+}
+
+.top-button {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    background-color: #B982B9;
+    text-align: center;
+    width:100px;
+    height:60px;
+    color: white;
+    line-height: 60px;
+    margin-bottom: 0;
+    font-size:25px;
+    transition: margin-bottom 1s, background-color 1s;
+    text-decoration:none;
+}
+
+.top-button:hover {
+    margin-bottom: 40px;
+    background-color: #672DA1;
+}
+
+.cart-button {
+    background-color:#DAD0D3;
+    border: solid 1px black;
+    width:150px;
+    height:30px;
+    margin-bottom:20px;
+}
+
+.cart-button:hover {
+    background-color:lightsteelblue;
+}
+
+.textbox {
+    display:block;
+    font-size:14px;
+    margin:3px;
+    padding:5px;
+}
+
+.larger-tbox {
+    height: 100px;
+    width: 300px;
+    resize: none;
+}
+
+.hidden {
+    display:none;
+}
+
+.prodInfo {
+    font-size:14px;
+/*    margin: 5px 0*/
+}
+
+#char_count {
+    display:block;
+    width: 300px;
+    font-style:italic;
+    font-size:14px;
+    text-align:right;
+    margin:10px;
+    margin:3px;
+}
+
+#scrollmsg {
+    width:100%;
+    font-size:40px;
+    text-align:center;
+    margin-top:100px;
+    margin-left:2000px;
+    transition: all 1.5s;
+} 
+
+#navbar {
+    background-color: #B982B9;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height:45px;
+}
+
+.parallax-img {
+    height: 250px;
+    margin-bottom: 30px;
+    background-size: cover;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.para-img1 {
+    background-image: url("../img/aboutp1.jpg");
+}
+
+.para-img2 {
+    background-image: url("../img/aboutp2.jpg");
+}
+
+.ref-sect a:hover {
+  color: #FF00EF;
+}
